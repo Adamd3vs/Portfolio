@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Home — Adam</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Theme pre-load -->
+  <script>
+    (() => {
+      const k = 'portfolio_theme';
+      const t = localStorage.getItem(k) ||
+        (matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+
+  <link rel="stylesheet" href="styles.css"/>
+  <script type="module" src="app.js" defer></script>
+</head>
+<body>
+  <!-- TOPBAR -->
+  <header class="topbar">
+    <button class="toggle" id="toggleBtn" aria-label="Toggle menu">☰</button>
+    <div class="topbar-left"><span class="brand">Adam</span></div>
+    <div class="topbar-right">
+      <a href="https://github.com/Adamd3vs" target="_blank" rel="noopener"
+   class="social-icon gh" title="GitHub">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+</a>
+
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button class="lang-btn" data-lang="en" title="English">🇬🇧</button>
+        <button class="lang-btn" data-lang="ko" title="한국어">🇰🇷</button>
+      </div>
+      <button id="themeToggle" class="theme-toggle" title="Theme">
+        <span class="icon-moon">🌙</span><span class="icon-sun" hidden>☀️</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="brand">debug Adam</div>
+    <nav class="menu">
+      <a href="index.html" data-key="home" class="active">Home</a>
+      <a href="about.html" data-key="about">About Me</a>
+      <a href="projects.html" data-key="projects">Projects</a>
+      <a href="techs.html" data-key="techs">Techs</a>
+      <a href="experience.html" data-key="experience">Experience</a>
+      <a href="contact.html" data-key="contact">Contact</a>
+    </nav>
+    <div class="sidebar-footer">© <span id="year"></span> Adam</div>
+  </aside>
+
+  <!-- CONTENT -->
+  <main class="content">
+    <section class="section hero-pro">
+      <div class="hero-left">
+         <p data-i18n="home.kicker">Hey there,</p>
+        <h1 class="hero-heading" data-i18n="home.heroHeading">
+          Building modern web & mobile applications <br><span class="accent">experience</span>
+        </h1>
+        <p class="hero-desc" data-i18n="home.heroDesc">
+          I’m a <b>Full-stack Developer</b> with 3+ years of experience building web and mobile apps.
+        </p>
+        <form class="hero-form" onsubmit="location.href='mailto:debugadamcontact@gmail.com';return false;">
+          <input type="email" required data-i18n-placeholder="common.emailPlaceholder" placeholder="Your email address" required>
+          <button type="submit" data-i18n="common.connectCta">Contact with Me</button>
+        </form>
+      </div>
+
+      <div class="hero-right">
+        <div class="photo-wrap">
+          <img src="main.PNG" alt="Adam">
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

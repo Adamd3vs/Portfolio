@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Experience — Adam</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <script type="module" src="app.js" defer></script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap">
+</head>
+<body>
+  <!-- TOPBAR -->
+  <header class="topbar">
+    <button class="toggle" id="toggleBtn" aria-label="Toggle menu">☰</button>
+    <div class="topbar-left"><span class="brand">Adam</span></div>
+    <div class="topbar-right">
+      <a href="https://github.com/Adamd3vs" target="_blank" rel="noopener"
+   class="social-icon gh" title="GitHub">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+</a>
+      <div class="lang-switch">
+        <button class="lang-btn" data-lang="en">🇬🇧</button>
+        <button class="lang-btn" data-lang="ko">🇰🇷</button>
+      </div>
+      <button id="themeToggle" class="theme-toggle">
+        <span class="icon-moon">🌙</span><span class="icon-sun" hidden>☀️</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="brand">Adam</div>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a href="techs.html">Techs</a>
+      <a href="experience.html" class="active">Experience</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="sidebar-footer">© <span id="year"></span> Adam</div>
+  </aside>
+
+  <!-- CONTENT -->
+  <main class="content">
+    <section class="section">
+      <h1>Experience</h1>
+      <p class="muted">Professional experience & contributions</p>
+
+      <div class="timeline">
+
+        <!-- BrightWave Web Solutions -->
+        <div class="exp-card">
+          <div class="exp-header">
+            <h3>BrightWave Web Solutions</h3>
+            <span class="exp-period">Sep 2023 – Mar 2025</span>
+          </div>
+          <p class="exp-role">Full Stack Developer (Remote) · London, United Kingdom</p>
+          <ul class="exp-points">
+            <li>Redesigned backend architecture using <b>NestJS</b> and <b>GraphQL</b>, improving API response speed by <b>40%</b>.</li>
+            <li>Integrated real-time features (<b>chat</b> & <b>notifications</b>) via Socket.IO, increasing session duration by 25%.</li>
+            <li>Applied modular MVC patterns, ensuring scalability and maintainability of backend systems.</li>
+            <li>Deployed backend services using <b>Docker Compose</b>, <b>PM2</b>, and <b>NGINX</b>; monitored via <b>Grafana</b>.</li>
+            <li>Delivered responsive, multilingual frontends with optimized performance.</li>
+          </ul>
+        </div>
+
+        <!-- ATMOS -->
+        <div class="exp-card">
+          <div class="exp-header">
+            <h3>ATMOS</h3>
+            <span class="exp-period">Apr 2022 – May 2023</span>
+          </div>
+          <p class="exp-role">Backend Developer (Remote) </p>
+          <ul class="exp-points">
+            <li>Integrated third-party APIs for <b>payment gateways</b>, <b>cloud storage</b>, and <b>email/SMS services</b>.</li>
+            <li>Implemented robust <b>unit</b> and <b>integration tests</b>, reducing production bugs significantly.</li>
+            <li>Maintained cloud infrastructure (AWS/GCP) focusing on scalability, monitoring, and logging.</li>
+            <li>Actively participated in <b>Agile/Scrum</b> sprints, contributing to sprint planning and code reviews.</li>
+            <li>Collaborated across teams to ensure continuous improvement in software delivery.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+  </main>
+</body>
+</html>

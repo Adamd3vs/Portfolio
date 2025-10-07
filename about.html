@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>About — Adam</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <script type="module" src="app.js" defer></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap">
+
+</head>
+<body>
+  <!-- TOPBAR ... -->
+  <header class="topbar">
+    <button class="toggle" id="toggleBtn" aria-label="Toggle menu">☰</button>
+    <div class="topbar-left"><span class="brand" data-i18n="brand">#AboutMe</span></div>
+    <div class="topbar-right">
+      <a href="https://github.com/Adamd3vs" target="_blank" rel="noopener"
+   class="social-icon gh" title="GitHub">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+</a>
+      
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button class="lang-btn" data-lang="en" title="English">🇬🇧</button>
+        <button class="lang-btn" data-lang="ko" title="한국어">🇰🇷</button>
+      </div>
+      <button id="themeToggle" class="theme-toggle" title="Theme">
+        <span class="icon-moon">🌙</span><span class="icon-sun" hidden>☀️</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- SIDEBAR ... -->
+  <aside class="sidebar">
+    <div class="brand">debug Adam</div>
+    <nav class="menu">
+      <a href="index.html"   data-key="home">Home</a>
+      <a href="about.html"   data-key="about">About Me</a>
+      <a href="projects.html" data-key="projects">Projects</a>
+      <a href="techs.html"   data-key="techs">Techs</a>
+      <a href="others.html"  data-key="others">Others</a>
+      <a href="contact.html" data-key="contact">Contact</a>
+    </nav>
+    <div class="sidebar-footer">© <span id="year"></span> <span data-i18n="brand">Adam</span></div>
+  </aside>
+
+  <main class="content">
+    <section class="section">
+      <h1 data-i18n="about.title">About Me</h1>
+      <img class="avatar" src="2main.PNG" alt="Adam">
+      <p data-i18n="about.p1">I’m a full-stack developer based in South Korea.</p>
+      <p data-i18n="about.p2">My journey into web development began with a strong foundation in mathematics, 
+        which sharpened my logic and problem-solving skills. From childhood math competitions to IT contests, I developed a deep curiosity for how technology works. At 14, my interest in gaming evolved into a passion for coding, and by 15, I was competing among young programmers.
+        In 2018, participating in the Asia Developers Competition inspired me to pursue programming seriously. Starting with JavaScript, HTML, Delphi, and Turbo Pascal, I quickly found programming to be a natural extension of my mathematical mindset.
+        Over the past three years, I’ve honed my skills as a professional web developer—building user-centered applications that combine functionality and meaningful design. I’m passionate about transforming ideas into impactful digital experiences and excited to collaborate on projects that make a real difference.</p>
+    </section>
+  </main>
+</body>
+</html>
