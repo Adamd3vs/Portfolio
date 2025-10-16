@@ -1,7 +1,7 @@
 // common/words.js
 export const WORDS = {
   en: {
-    brand: "Adam",
+    brand: "Mirjalol",
     menu: {
       home: "Home",
       about: "About Me",
@@ -23,7 +23,7 @@ export const WORDS = {
 
     home: {
       kicker: "Hey there,",
-      title: "Hello, I'm <span class='accent'>Adam</span>",
+      title: "Hello, I'm <span class='accent'>Mirjalol</span>",
       subtitle: "Full-stack developer (React, Node, NestJS). Welcome to my portfolio.",
       heroHeading: "Building modern web & mobile applications <br><span class='accent'>experience</span>",
       heroDesc:
@@ -139,7 +139,7 @@ export const WORDS = {
 
     home: {
       kicker: "안녕하세요,",
-      title: "안녕하세요, <span class='accent'>Adam</span> 입니다",
+      title: "안녕하세요, <span class='accent'>Mirjalol</span> 입니다",
       subtitle: "풀스택 개발자(React, Node, NestJS). 포트폴리오에 오신 것을 환영합니다.",
       heroHeading: "모던한 웹 & 모바일 애플리케이션을 구축합니다 <br><span class='accent'>경험</span>",
       heroDesc:
