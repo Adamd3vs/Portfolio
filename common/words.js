@@ -230,5 +230,244 @@ export const WORDS = {
       title: "연락처",
       email: "이메일"
     }
+  },
+
+  // Russian
+  ru: {
+    brand: "Миржалол",
+    menu: {
+      home: "Главная",
+      about: "Обо мне",
+      projects: "Проекты",
+      techs: "Технологии",
+      experience: "Опыт",
+      others: "Другое",
+      contact: "Контакты"
+    },
+
+    common: {
+      live: "Сайт",
+      details: "Подробнее",
+      email: "Эл. почта",
+      years: "года опыта",
+      connectCta: "Связаться со мной",
+      emailPlaceholder: "Ваш адрес эл. почты"
+    },
+
+    home: {
+      kicker: "Привет,",
+      title: "Здравствуйте, я <span class='accent'>Миржалол</span>",
+      subtitle:
+        "Full-stack разработчик (React, Node, NestJS). Добро пожаловать в моё портфолио.",
+      heroHeading:
+        "Создаю современные веб и мобильные приложения <br><span class='accent'>с опытом</span>",
+      heroDesc:
+        "Я <b>Full-stack разработчик</b> с опытом более 3 лет, создающий масштабируемые и удобные веб/мобильные приложения."
+    },
+
+    about: {
+      title: "Обо мне",
+      p1: "Я full-stack разработчик, живущий в Южной Корее.",
+      p2:
+        "Моё путь начался с крепкой базы в математике и любви к решению задач. От ранних соревнований по программированию до современных продуктов — я создаю ориентированные на пользователя приложения, совмещающие функциональность и продуманный дизайн."
+    },
+
+    projects: {
+      title: "Проекты",
+      items: {
+        cozypick: {
+          name: "CozyPick",
+          stack: "Next.js • NestJS • GraphQL",
+          live: "http://cozypick.online/"
+        },
+        greencart: {
+          name: "GreenCart",
+          stack: "React • Express • Node.js",
+          live: "http://green-cart.store/"
+        },
+        digidine: {
+          name: "Digi-Dine (в процессе)",
+          stack: "NestJS • GraphQL • JWT",
+          aboutTitle: "Описание",
+          aboutPoints: [
+            "Ролевая аутентификация (JWT, refresh)",
+            "Схема и резолверы GraphQL",
+            "Поток заказа и обновления в реальном времени (Socket.IO)",
+            "MongoDB + Mongoose"
+          ]
+        }
+      }
+    },
+
+    techs: {
+      title: "Технологический стек",
+      subtitle:
+        "Языки, фреймворки и инструменты, которые я использую чаще всего",
+      groups: {
+        frontend: "Фронтенд",
+        backend: "Бэкенд",
+        devops: "DevOps и инструменты"
+      }
+    },
+
+    experience: {
+      title: "Опыт",
+      subtitle: "Профессиональный опыт и вклад",
+      items: {
+        brightwave: {
+          company: "BrightWave Web Solutions",
+          period: "Сен 2023 – Мар 2025",
+          role: "Full Stack разработчик (удалённо) · Лондон, Великобритания",
+          points: [
+            "Перепроектировал бэкенд на NestJS и GraphQL; ускорение API на 40%.",
+            "Добавил чат и уведомления в реальном времени (Socket.IO), +25% к длительности сессии.",
+            "Применил модульный MVC-подход для масштабируемости и поддержки.",
+            "Деплой через Docker Compose, PM2 и NGINX; мониторинг в Grafana.",
+            "Создал адаптивные, многоязычные фронтенды с высокой производительностью."
+          ]
+        },
+        atmos: {
+          company: "ATMOS",
+          period: "Апр 2022 – Май 2023",
+          role: "Бэкенд-разработчик (удалённо)",
+          points: [
+            "Интеграция сторонних сервисов (платежи, облако, email/SMS).",
+            "Юнит- и интеграционные тесты значительно снизили баги в проде.",
+            "Поддерживал AWS/GCP с акцентом на масштабируемость и логи.",
+            "Участвовал в Agile/Scrum: планирование, код-ревью, стендапы.",
+            "Постоянные улучшения благодаря межкомандному взаимодействию."
+          ]
+        }
+      }
+    },
+
+    others: {
+      title: "Другое",
+      p: "Блог, сертификаты, хобби и другое."
+    },
+
+    contact: {
+      title: "Контакты",
+      email: "Эл. почта"
+    }
+  },
+
+  // Uzbek
+  uz: {
+    brand: "Mirjalol",
+    menu: {
+      home: "Bosh sahifa",
+      about: "Men haqimda",
+      projects: "Loyihalar",
+      techs: "Texnologiyalar",
+      experience: "Tajriba",
+      others: "Boshqalar",
+      contact: "Aloqa"
+    },
+
+    common: {
+      live: "Sayt",
+      details: "Batafsil",
+      email: "Email",
+      years: "yil tajriba",
+      connectCta: "Men bilan bog‘laning",
+      emailPlaceholder: "Email manzilingiz"
+    },
+
+    home: {
+      kicker: "Salom,",
+      title: "Salom, men <span class='accent'>Mirjalol</span>",
+      subtitle:
+        "Full-stack dasturchi (React, Node, NestJS). Portfoliomga xush kelibsiz.",
+      heroHeading:
+        "Zamonaviy veb va mobil ilovalar yarataman <br><span class='accent'>tajriba</span>",
+      heroDesc:
+        "Men 3+ yillik tajribaga ega <b>Full-stack</b> dasturchiman; dinamik, kengaytiriladigan va foydalanuvchiga qulay ilovalar ishlab chiqaman."
+    },
+
+    about: {
+      title: "Men haqimda",
+      p1: "Janubiy Koreyada yashovchi full-stack dasturchiman.",
+      p2:
+        "Matematika va muammolarni hal qilishga bo‘lgan ishtiyoqim dasturlash yo‘lini tanlashimga sabab bo‘lgan. Dastlabki tanlovlardan tortib zamonaviy mahsulotlargacha — foydalanuvchi markazidagi funksionallik va mazmunli dizayn uyg‘unligiga e’tibor beraman."
+    },
+
+    projects: {
+      title: "Loyihalar",
+      items: {
+        cozypick: {
+          name: "CozyPick",
+          stack: "Next.js • NestJS • GraphQL",
+          live: "http://cozypick.online/"
+        },
+        greencart: {
+          name: "GreenCart",
+          stack: "React • Express • Node.js",
+          live: "http://green-cart.store/"
+        },
+        digidine: {
+          name: "Digi-Dine (Jarayonda)",
+          stack: "NestJS • GraphQL • JWT",
+          aboutTitle: "Haqida",
+          aboutPoints: [
+            "Rollar asosida autentifikatsiya (JWT, refresh)",
+            "GraphQL sxemasi va resolverlar",
+            "Buyurtmalar oqimi va real vaqt yangilanishlari (Socket.IO)",
+            "MongoDB + Mongoose"
+          ]
+        }
+      }
+    },
+
+    techs: {
+      title: "Texnologiyalar to‘plami",
+      subtitle: "Eng ko‘p ishlatadigan tillar, freymvorklar va vositalar",
+      groups: {
+        frontend: "Frontend",
+        backend: "Backend",
+        devops: "DevOps va vositalar"
+      }
+    },
+
+    experience: {
+      title: "Tajriba",
+      subtitle: "Professional tajriba va hissalar",
+      items: {
+        brightwave: {
+          company: "BrightWave Web Solutions",
+          period: "2023-sentabr – 2025-mart",
+          role: "Full Stack dasturchi (Masofadan) · London, Buyuk Britaniya",
+          points: [
+            "NestJS va GraphQL bilan backend qayta ishlab chiqilib, API tezligi 40% ga oshirildi.",
+            "Socket.IO bilan real vaqt chat va bildirishnomalar joriy etilib, sessiya davomiyligi 25% ga uzaydi.",
+            "Modulli MVC yondashuvi qo‘llanilib, kengayish va qo‘llab-quvvatlash osonlashtirildi.",
+            "Docker Compose + PM2 + NGINX orqali deploy; Grafana orqali monitoring.",
+            "Yuqori samarali, moslashuvchan va ko‘p tilli frontendlar yaratildi."
+          ]
+        },
+        atmos: {
+          company: "ATMOS",
+          period: "2022-aprel – 2023-may",
+          role: "Backend dasturchi (Masofadan)",
+          points: [
+            "Uchinchi tomon xizmatlari integratsiyasi (to‘lov, bulut, email/SMS).",
+            "Birlik va integratsiya testlari ishlab chiqarishdagi xatolarni kamaytirdi.",
+            "AWS/GCP infratuzilmasi: kengayish, monitoring va loglarga e’tibor.",
+            "Agile/Scrum: rejalashtirish, kod ko‘rib chiqish, kunlik yig‘ilishlar.",
+            "Jamoalararo hamkorlik orqali doimiy yaxshilanish boshqarildi."
+          ]
+        }
+      }
+    },
+
+    others: {
+      title: "Boshqalar",
+      p: "Blog, sertifikatlar, sevimli mashg‘ulotlar va boshqalar."
+    },
+
+    contact: {
+      title: "Aloqa",
+      email: "Email"
+    }
   }
 };
